@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid yellow;
+    padding: 20px;
+    position: relative;
+}
+input {
+    background-color: transparent;
+    outline: none;
+    padding-top: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+label {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 14px;
+}
