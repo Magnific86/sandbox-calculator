@@ -218,10 +218,7 @@ export default function Calculator() {
   ]
 
   return (
-    <form
-      onSubmit={e => calcDataHandler(e)}
-      className="container px-10 items-center justify-center flex flex-col w-1/3 mx-auto py-20"
-    >
+    <form onSubmit={e => calcDataHandler(e)} className="container px-10 items-center justify-center flex flex-col w-1/3 mx-auto py-20">
       <div className="input_container">
         <label htmlFor="myInput">{prevResult}</label>
         <input name="myInput" ref={ref} value={data} onChange={e => inputHandler(e)} />
